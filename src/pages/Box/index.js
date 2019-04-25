@@ -64,8 +64,8 @@ export default class Box extends Component {
                 </DropZone>
 
                 <ul>
-                    {this.state.box.file &&
-                        this.state.box.file.map(file => (
+                    {this.state.box.files &&
+                        this.state.box.files.map(file => (
                             <li key={file._id}>
                                 <a
                                     className="fileInfo"
