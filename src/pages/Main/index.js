@@ -25,8 +25,8 @@ export default class Main extends Component {
     render() {
         return (
             <div id="main-container">
+                <img src={logo} alt="" />
                 <form onSubmit={this.handleSubmit}>
-                    <img src={logo} alt="" />
                     <input
                         placeholder="Criar uma box"
                         value={this.state.newBox}
